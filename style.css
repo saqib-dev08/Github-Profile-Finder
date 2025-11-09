@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'poppins', 'verdana';
+font-weight: 300;
+font-style: normal;
+}
+body{
+   background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    line-height: 55px;
+    padding: 25px 40px 25px 30px;
+    border-radius: 17px;
+    background-color: #ffffff;
+}
+h2{
+font-size: 36px;
+margin-bottom: 20px;
+text-align: center;
+}
+.input-btn{
+    padding: 6px 5px 6px 16px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #8a8484;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+#username-Inp{
+    background-color: #f3f2f2;
+
+}
+#username-Inp:focus{
+    outline: none;
+}
+#findBtn{
+    width: 320px;
+    background-color: rgb(178 178 178);
+
+}
+#findBtn:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+
+}
+p{
+ display: none;
+    color: red;
+}
