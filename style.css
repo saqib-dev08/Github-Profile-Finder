@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:  'poppins', 'verdana';
-font-weight: 300;
-font-style: normal;
+    font-family: 'poppins', 'verdana';
+    font-weight: 300;
+    font-style: normal;
 }
-body{
-   background: #A1FFCE;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: 100vh;
+
+body {
+    background: #A1FFCE;
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
-#div1{
+
+#div1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,12 +28,14 @@ height: 100vh;
     border-radius: 17px;
     background-color: #ffffff;
 }
-h2{
-font-size: 36px;
-margin-bottom: 20px;
-text-align: center;
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-.input-btn{
+
+.input-btn {
     padding: 6px 5px 6px 16px;
     border-radius: 20px;
     border: none;
@@ -40,24 +44,29 @@ text-align: center;
     font-size: 16px;
     margin-bottom: 12px;
 }
-#username-Inp{
+
+#username-Inp {
     background-color: #f3f2f2;
 
 }
-#username-Inp:focus{
+
+#username-Inp:focus {
     outline: none;
 }
-#findBtn{
+
+#findBtn {
     width: 320px;
     background-color: rgb(178 178 178);
 
 }
-#findBtn:hover{
+
+#findBtn:hover {
     cursor: pointer;
     background-color: rgb(165, 165, 165);
 
 }
-p{
- display: none;
+
+p {
+    display: none;
     color: red;
 }
